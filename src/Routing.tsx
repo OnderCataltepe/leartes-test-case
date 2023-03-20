@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter, RouteObject } from 'react-router-dom';
-import { Home, Cart, Products, ProductDetails, ErrorPage } from '~/pages';
+import { Home, Products, ProductDetails, ErrorPage } from '~/pages';
 import { RootLayout } from '~/layouts';
 const routes: RouteObject[] = [
   {
@@ -9,10 +9,6 @@ const routes: RouteObject[] = [
       {
         index: true,
         element: <Home />
-      },
-      {
-        path: 'cart',
-        element: <Cart />
       },
       {
         path: 'products',
