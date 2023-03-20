@@ -125,7 +125,7 @@ const Products = (): JSX.Element => {
             dataLength={page * 12}
             next={() => setPage((prev) => prev + 1)}
             hasMore={products.length < page * 12 ? false : true}
-            loader={<Loading />}>
+            loader={searchRef.current?.value.trim().length === 0 ? <Loading /> : <></>}>
             {filtered && <ProductContainer products={filtered} />}
           </InfiniteScroll>
         )}
