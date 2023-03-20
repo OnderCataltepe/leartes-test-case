@@ -9,9 +9,7 @@ npm install
 npm run dev
 
 ```
-
-Alternatively
-change baseUrl to JSON_SERVER_BASE_URL
+Alternatively, change baseUrl to JSON SERVER BASE_URL
 
 ```
 npm install
