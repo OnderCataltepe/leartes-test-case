@@ -14,7 +14,7 @@ const ProductDetails = (): JSX.Element => {
   const { slug } = useParams();
   const dispatch = useAppDispatch();
   const [warning, setWarning] = useState<boolean>(false);
-  const { cart, successMessage } = useAppSelector((state) => state.cart);
+  const { cart, successMessage, error } = useAppSelector((state) => state.cart);
   const [pageLoading, setPageLoading] = useState<boolean>(true);
   const [errorMessage, setErrorMessage] = useState<null | string>(null);
   const [product, setProduct] = useState<ProductType | null>(null);
@@ -49,8 +49,10 @@ const ProductDetails = (): JSX.Element => {
       })
       .catch((error) => {
         if (axios.isAxiosError(error)) {
-          console.error(error.response);
-          setErrorMessage(error.response?.status + ' ' + error.response?.statusText);
+          if (error.response) {
+            console.error(error.response);
+            setErrorMessage(error.response.status + ' ' + error.response.statusText);
+          }
         } else {
           console.error(error);
         }
@@ -79,7 +81,7 @@ const ProductDetails = (): JSX.Element => {
     );
   }
   if (errorMessage || !product) {
-    return <Error message={errorMessage ? errorMessage : '404'} />;
+    return <Error message={errorMessage ? errorMessage : error ? error.status_message : '404'} />;
   }
   return (
     <div className={styles.container}>
