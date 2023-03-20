@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "concurrently \"react-scripts start\" \"json-server --watch src/data/items.json --port 3004\"",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
