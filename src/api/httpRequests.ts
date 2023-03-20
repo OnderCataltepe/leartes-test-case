@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:3000/',
+  baseURL: 'https://flash-cherry-ceder.glitch.me/',
   timeout: 1000,
   headers: {
     Accept: 'application/json'
