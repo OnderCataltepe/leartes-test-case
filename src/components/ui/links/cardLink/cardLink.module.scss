@@ -1,0 +1,16 @@
+.linkItem {
+  width: 95%;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  > span {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}

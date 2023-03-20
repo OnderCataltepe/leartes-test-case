@@ -1,0 +1,19 @@
+.container {
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+  position: fixed;
+  margin-top: 4rem;
+  top: 0;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.error {
+  background-color: var(--red-color);
+}
+.success {
+  background-color: var(--green-color);
+}

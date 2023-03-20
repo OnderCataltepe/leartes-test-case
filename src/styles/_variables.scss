@@ -1,0 +1,17 @@
+$white: #fafafa;
+$red: #c60606;
+$black: #000;
+$orange: #f44100;
+$gray: #c4c4c4;
+$darkGray: #444444;
+$green: #069753;
+:root {
+  //color
+  --white-color: #{$white};
+  --red-color: #{$red};
+  --black-color: #{$black};
+  --orange-color: #{$orange};
+  --gray-color: #{$gray};
+  --darkGray-color: #{$darkGray};
+  --green-color: #{$green};
+}

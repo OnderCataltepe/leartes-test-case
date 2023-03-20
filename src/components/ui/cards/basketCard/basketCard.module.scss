@@ -1,0 +1,64 @@
+@import '../../../../styles/mixin';
+
+.container {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid var(--gray-color);
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  .imgContainer {
+    width: 40%;
+    > img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .info {
+    width: 60%;
+    color: var(--darkGray-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  .amount {
+    display: flex;
+    align-items: stretch;
+    > div {
+      width: 2.2rem;
+      height: 2.2rem;
+      text-align: center;
+      border: 1px solid var(--darkGray-color);
+      font-size: 1.6rem;
+      margin-left: 0.2rem;
+      overflow: hidden;
+      > button {
+        color: var(--black-color);
+
+        &:not(:disabled):hover {
+          color: var(--white-color);
+          background-color: var(--black-color);
+        }
+      }
+    }
+  }
+}
+@include mobile() {
+  .container {
+    .info {
+      > p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

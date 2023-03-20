@@ -1,0 +1,21 @@
+@import '../../../../styles/mixin';
+
+.container {
+  width: 100%;
+  padding: 1rem;
+  .total {
+    color: var(--darkGray-color);
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .empty {
+    color: var(--darkGray-color);
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--darkGray-color);
+    margin: 1rem 0rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}

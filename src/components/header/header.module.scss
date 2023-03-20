@@ -1,0 +1,19 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  color: var(--white-color);
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+}

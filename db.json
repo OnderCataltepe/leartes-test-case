@@ -1,0 +1,385 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "RB3548N Hexagonal Flat Lenses",
+      "slug": "rb3548n-hexagonal-flat-lenses",
+      "brand": "Ray-Ban",
+      "gender": "unisex",
+      "frame_color": "Gold",
+      "frame_material": "Steel",
+      "lens_color": "Green",
+      "max_amount": 10,
+      "price": 138,
+      "polarised": false,
+      "shape": "Irregular",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672611649__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672611649__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672611649__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "RB3025 Aviator Total Black",
+      "slug": "rb3025-aviator-total-black",
+      "brand": "Ray-Ban",
+      "gender": "men",
+      "frame_color": "Black",
+      "frame_material": "Metal",
+      "lens_color": "Black",
+      "max_amount": 10,
+      "price": 185,
+      "polarised": true,
+      "shape": "Pilot",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597328111__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597328111__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597328111__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "RB4640",
+      "slug": "rb4640",
+      "brand": "Ray-Ban",
+      "gender": "women",
+      "frame_color": "Light Havana",
+      "frame_material": "Nylon",
+      "lens_color": "Brown",
+      "max_amount": 10,
+      "price": 125,
+      "polarised": true,
+      "shape": "Square",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597243421__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597243421__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597243421__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "RB4416 New Clubmaster",
+      "slug": "rb4416-new-clubmaster",
+      "brand": "Ray-Ban",
+      "gender": "unisex",
+      "frame_color": "Silver",
+      "frame_material": "Propionate",
+      "lens_color": "Blue",
+      "max_amount": 0,
+      "price": 203,
+      "polarised": true,
+      "shape": "Irregular",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597801706__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597801706__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597801706__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "RB3957 Julie",
+      "slug": "rb3957-julie",
+      "brand": "Ray-Ban",
+      "gender": "unisex",
+      "frame_color": "Gold",
+      "frame_material": "Metal",
+      "lens_color": "Green",
+      "max_amount": 10,
+      "price": 137,
+      "polarised": false,
+      "shape": "Rectangle",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597533485__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672611649__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597533485__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "RB3447 Round Metal",
+      "slug": "rb3447-round-metal",
+      "brand": "Ray-Ban",
+      "gender": "unisex",
+      "frame_color": "Gold",
+      "frame_material": "Metal",
+      "lens_color": "Green",
+      "max_amount": 10,
+      "price": 137,
+      "polarised": false,
+      "shape": "Round",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/805289439899__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/805289439899__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/805289439899__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "RB3636 New Caravan",
+      "slug": "rb3636-new-caravan",
+      "brand": "Ray-Ban",
+      "gender": "men",
+      "frame_color": "Gold",
+      "frame_material": "Metal",
+      "lens_color": "Brown",
+      "max_amount": 10,
+      "price": 213,
+      "polarised": true,
+      "shape": "Square",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597665131__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597665131__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597665131__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "RB4098 Jackie Ohh II Transparent",
+      "slug": "rb4098-jackie-ohh-ii-transparent",
+      "brand": "Ray-Ban",
+      "gender": "women",
+      "frame_color": "Blue",
+      "frame_material": "Nylon",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 105,
+      "polarised": true,
+      "shape": "Butterfly",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597663588__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597663588__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597663588__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "RB2132 New Wayfarer Classic",
+      "slug": "rb2132-new-wayfarer-classic",
+      "brand": "Ray-Ban",
+      "gender": "women",
+      "frame_color": "Grey",
+      "frame_material": "Nylon",
+      "lens_color": "Blue",
+      "max_amount": 10,
+      "price": 175,
+      "polarised": true,
+      "shape": "Square",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597662055__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597662055__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597662055__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "VE2245",
+      "slug": "ve2245",
+      "brand": "Versace",
+      "gender": "women",
+      "frame_color": "Gold",
+      "frame_material": "Metal",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 179.2,
+      "polarised": false,
+      "shape": "Rectangle",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597643030__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597643030__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597643030__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "VE2199",
+      "slug": "ve2199",
+      "brand": "Versace",
+      "gender": "women",
+      "frame_color": "Black",
+      "frame_material": "Metal",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 210,
+      "polarised": true,
+      "shape": "Irregular",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672923087__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672923087__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672923087__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "VE2216",
+      "slug": "ve2216",
+      "brand": "Versace",
+      "gender": "men",
+      "frame_color": "Silver",
+      "frame_material": "Metal",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 112,
+      "polarised": false,
+      "shape": "Pillow",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597117289_SGH_gryBG_qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597117289_SGH_gryBG_fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597117289_SGH_gryBG_lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "VE2212",
+      "slug": "ve2212",
+      "brand": "Versace",
+      "gender": "men",
+      "frame_color": "Silver",
+      "frame_material": "Metal",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 102,
+      "polarised": false,
+      "shape": "Pilot",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597051767_SGH_gryBG_qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597051767_SGH_gryBG_fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597051767_SGH_gryBG_lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "PR 63XS",
+      "slug": "pr-63xs",
+      "brand": "Prada",
+      "gender": "men",
+      "frame_color": "Metal",
+      "frame_material": "Metal",
+      "lens_color": "Green",
+      "max_amount": 10,
+      "price": 227,
+      "polarised": false,
+      "shape": "Irregular",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597260145_SGH_gryBG_qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597260145_SGH_gryBG_fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597260145_SGH_gryBG_lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "PR 19WS",
+      "slug": "pr-19ws",
+      "brand": "Prada",
+      "gender": "men",
+      "frame_color": "Black",
+      "frame_material": "Acetate",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 315,
+      "polarised": true,
+      "shape": "Rectangle",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597440240__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597440240__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597440240__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "PR 24YS Runway",
+      "slug": "pr-24ys-runway",
+      "brand": "Prada",
+      "gender": "men",
+      "frame_color": "Crystal Fern",
+      "frame_material": "Acetate",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 345,
+      "polarised": true,
+      "shape": "Rectangle",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597621434__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597621434__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597621434__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "PR 19ZS",
+      "slug": "pr-19zs",
+      "brand": "Prada",
+      "gender": "women",
+      "frame_color": "Blue",
+      "frame_material": "Acetate",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 325,
+      "polarised": true,
+      "shape": "Pillow",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597744201__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597744201__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597744201__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "PR 02VS Catwalk",
+      "slug": "pr-02vs-catwalk",
+      "brand": "Prada",
+      "gender": "men",
+      "frame_color": "Black",
+      "frame_material": "Acetate",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 234,
+      "polarised": false,
+      "shape": "Cat Eye",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672987461_030A.png?impolicy=SGH_bg&bgcolor=%23f6f6f6",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672987461_000A.png?impolicy=SGH_bg&bgcolor=%23f6f6f6",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8053672987461_090A.png?impolicy=SGH_bg&bgcolor=%23f6f6f6"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "PR 52YS",
+      "slug": "pr-52ys",
+      "brand": "Prada",
+      "gender": "unisex",
+      "frame_color": "Black",
+      "frame_material": "Steel",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 274,
+      "polarised": true,
+      "shape": "Rectangle",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597532013__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597532013__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597532013__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "PR 22YS",
+      "slug": "pr-22ys",
+      "brand": "Prada",
+      "gender": "unisex",
+      "frame_color": "Black",
+      "frame_material": "Acetate",
+      "lens_color": "Grey",
+      "max_amount": 10,
+      "price": 234,
+      "polarised": false,
+      "shape": "Pilot",
+      "images": [
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597629652__STD__shad__qt.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597629652__STD__shad__fr.png?impolicy=SGH_bgtransparent",
+        "https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597629652__STD__shad__lt.png?impolicy=SGH_bgtransparent"
+      ]
+    }
+  ],
+  "cart": []
+}

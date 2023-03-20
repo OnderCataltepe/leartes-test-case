@@ -1,0 +1,28 @@
+@import '../../../../styles/mixin';
+
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.emptyList {
+  width: 100%;
+  background-color: var(--white-color);
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+@include mobile() {
+  .productContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+  }
+}
+@include medium() {
+  .productContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+}

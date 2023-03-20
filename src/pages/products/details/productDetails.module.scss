@@ -1,0 +1,89 @@
+@import '../../../styles/mixin';
+
+.container {
+  padding-top: 10rem;
+  .card {
+    background-color: var(--white-color);
+    width: 100%;
+    display: flex;
+    padding: 3rem;
+    position: relative;
+    .imageContainer {
+      width: 70%;
+      position: relative;
+    }
+  }
+  .info {
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+      > button {
+        color: var(--orange-color);
+        &:hover {
+          background-color: var(--orange-color);
+          color: var(--white-color);
+          transition: all ease-in-out 200ms;
+        }
+      }
+    }
+    .details {
+      border-top: 1px solid var(--gray-color);
+      margin-top: 2rem;
+      padding-top: 2rem;
+      > p {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      > div {
+        > p {
+          font-weight: bold;
+          font-size: 2rem;
+          > span {
+            font-weight: 500;
+            color: var(--darkGray-color);
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mobile() {
+  .container {
+    .card {
+      padding: 1rem;
+      flex-direction: column;
+      .imageContainer {
+        width: 100%;
+      }
+      .info {
+        padding: 0rem;
+        flex-direction: row;
+        justify-content: space-between;
+        .title {
+          h1 {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 1.6rem;
+          }
+        }
+        .details {
+          margin-top: 0;
+          border-top: none;
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}

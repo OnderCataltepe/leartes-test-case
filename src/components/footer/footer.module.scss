@@ -1,0 +1,11 @@
+.container {
+  background-color: black;
+  color: gray;
+  padding: 1rem 1rem;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  > p {
+    color: var(--gray-color);
+  }
+}

@@ -1,0 +1,48 @@
+@import '../../../styles/mixin';
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0rem 5rem;
+  padding-top: 10rem;
+  > div:nth-child(1) {
+    width: 15%;
+    min-width: 150px;
+    background-color: var(--white-color);
+    margin-right: 1rem;
+  }
+  > div:nth-child(2) {
+    width: 80%;
+  }
+
+  .filter {
+    width: 100%;
+    background-color: var(--white-color);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0.5rem;
+  }
+}
+
+@include mobile() {
+  .container {
+    padding: 0rem 1rem;
+    padding-top: 10rem;
+    > div:nth-child(1) {
+      display: none;
+    }
+    > div:nth-child(2) {
+      width: 100%;
+    }
+  }
+}
+@include medium() {
+  .container {
+    padding: 0rem 2rem;
+    padding-top: 10rem;
+  }
+}

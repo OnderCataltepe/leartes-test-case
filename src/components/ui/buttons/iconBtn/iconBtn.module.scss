@@ -1,0 +1,12 @@
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+  &:disabled {
+    opacity: 0.3;
+    cursor: no-drop;
+  }
+}

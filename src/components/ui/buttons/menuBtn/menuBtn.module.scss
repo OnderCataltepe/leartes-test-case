@@ -1,0 +1,45 @@
+@import '../../../../styles/mixin';
+
+.container {
+  display: none;
+  > input {
+    display: none;
+  }
+  > label {
+    cursor: pointer;
+  }
+  input[type='checkbox'] + label {
+    .iconBar {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background-color: var(--white-color);
+      margin: 4px;
+      transition: all 0.2s;
+    }
+    .middleBar {
+      opacity: 1;
+      width: 18px;
+    }
+  }
+  input[type='checkbox']:checked + label {
+    .topBar {
+      transform: rotate(45deg);
+      transform-origin: 10% 10%;
+    }
+    .middleBar {
+      opacity: 0;
+    }
+    .bottomBar {
+      transform: rotate(-45deg);
+      transform-origin: 10% 90%;
+    }
+  }
+}
+
+@include mobile() {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
