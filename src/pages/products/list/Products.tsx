@@ -47,8 +47,10 @@ const Products = (): JSX.Element => {
       })
       .catch((error) => {
         if (axios.isAxiosError(error)) {
-          console.error(error.response);
-          setErrorMessage(error.response?.status + ' ' + error.response?.statusText);
+          if (error.response) {
+            console.error(error.response);
+            setErrorMessage(error.response.status + ' ' + error.response.statusText);
+          }
         } else {
           console.error(error);
         }
