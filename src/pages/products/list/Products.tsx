@@ -51,6 +51,7 @@ const Products = (): JSX.Element => {
             console.error(error.response);
             setErrorMessage(error.response.status + ' ' + error.response.statusText);
           }
+          setErrorMessage(error.message);
         } else {
           console.error(error);
         }
