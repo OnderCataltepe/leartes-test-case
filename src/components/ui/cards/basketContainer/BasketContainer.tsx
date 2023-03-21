@@ -9,7 +9,7 @@ const BasketContainer = ({ products }: BCProps) => {
     .map((item) => item.price * item.amount)
     .reduce((a, b) => a + b, 0)
     .toFixed(2);
-  console.log(products);
+
   return (
     <div className={styles.container}>
       <p className={styles.total}>Total: ${totalPrice}</p>
